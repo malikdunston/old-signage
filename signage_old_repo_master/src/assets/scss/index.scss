@@ -1,0 +1,9 @@
+@import "components/_config";
+
+body{
+	background: $black;
+	*{
+		color: $white;
+		font-family: 'gotham';
+	}
+}

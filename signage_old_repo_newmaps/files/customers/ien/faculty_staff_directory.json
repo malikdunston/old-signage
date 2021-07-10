@@ -1,0 +1,1032 @@
+[
+  {
+    "name_first": "Charlie",
+    "name_last": "Turgeon",
+    "role": "Laboratory Access and Coordination",
+    "contact_phone1": "404.441.6739",
+    "contact_email": "charlie.turgeon@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1121
+  },
+  {
+    "name_first": "Traci",
+    "name_last": "Walden-Monroe",
+    "role": "Assistant Director - Finance/Admin/HR",
+    "contact_phone1": "404.894.4855",
+    "contact_email": "traci.walden@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1135
+  },
+  {
+    "name_first": "Dennis",
+    "name_last": "Quinlan",
+    "role": "IEN Admin / Finance Coordinator",
+    "contact_phone1": "404.894.3847",
+    "contact_email": "dennis.quinlan@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1136
+  },
+  {
+    "name_first": "Gary",
+    "name_last": "Spinner",
+    "role": "Senior Assistant Director - Lab Ops",
+    "contact_phone1": "404.894.4010",
+    "contact_email": "gary.spinner@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1137
+  },
+  {
+    "name_first": "Bob",
+    "name_last": "Rose",
+    "role": "Infrastructure Systems and Construction",
+    "contact_phone1": "404.894.4010",
+    "contact_email": "bob.rose@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1138
+  },
+  {
+    "name_first": "Walter",
+    "name_last": "Henderson",
+    "role": "MCF Shared-user Facility Manager",
+    "contact_phone1": "404.894.4702",
+    "contact_email": "walter.henderson@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1140
+  },
+  {
+    "name_first": "David",
+    "name_last": "Gottfried",
+    "role": "Deputy Director, SENIC",
+    "contact_phone1": "404.894.0479",
+    "contact_email": "david.gottfried@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1141
+  },
+  {
+    "name_first": "Paul",
+    "name_last": "Joseph",
+    "role": "IEN External Users Program Coordinator",
+    "contact_phone1": "404.894.5029",
+    "contact_email": "paul.joseph@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1142
+  },
+  {
+    "name_first": "Amy",
+    "name_last": "Duke",
+    "role": "Research Administrative Manager",
+    "contact_phone1": "404.894.6890",
+    "contact_email": "amy.duke@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1143
+  },
+  {
+    "name_first": "Hang",
+    "name_last": "Chen",
+    "role": "Process & Instructional Support Manger",
+    "contact_phone1": "404.894.3360",
+    "contact_email": "hang.chen@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1152
+  },
+  {
+    "name_first": "Mikkel",
+    "name_last": "Thomas",
+    "role": "Process Engineering",
+    "contact_phone1": "404.385.8536",
+    "contact_email": "mikkel.thomas@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1154
+  },
+  {
+    "name_first": "Kristin",
+    "name_last": "Turgeon",
+    "role": "Laboratory Finances and Billing",
+    "contact_phone1": "404.894.4189",
+    "contact_email": "kristin.turgeon@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1156
+  },
+  {
+    "name_first": "Scott",
+    "name_last": "Fowler",
+    "role": "Advanced Diagnostics",
+    "contact_phone1": "404.391.9212",
+    "contact_email": "scott.fowler@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Dean C.",
+    "name_last": "Sutter",
+    "role": "Advanced Diagnostics Lead",
+    "contact_phone1": "404.391.4059",
+    "contact_email": "deanc.sutter@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Thomas",
+    "name_last": "Johnson-Averette",
+    "role": "Controls Lead",
+    "contact_phone1": "404.971.8594",
+    "contact_email": "thomasja@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Charlie",
+    "name_last": "Suh",
+    "role": "Laboratory Operations Lead",
+    "contact_phone1": "404.247.3037",
+    "contact_email": "charlie.suh@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Ben",
+    "name_last": "Hollerbach",
+    "role": "Materials Growth",
+    "contact_phone1": "817.966.3181",
+    "contact_email": "ben.hollerbach@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Chris",
+    "name_last": "Yang",
+    "role": "Process Engineering",
+    "contact_phone1": "404.375.6632",
+    "contact_email": "chris.yang@gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Alex",
+    "name_last": "Gallmon",
+    "role": "Process Equipment Engineer II",
+    "contact_phone1": "404.593.6473",
+    "contact_email": "alex.gallmon@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": 1280
+  },
+  {
+    "name_first": "Thomas",
+    "name_last": "Bougher",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "tbougher@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2131
+  },
+  {
+    "name_first": "Brian",
+    "name_last": "Foley",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "brian.foley@me.gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2131
+  },
+  {
+    "name_first": "Spyridon",
+    "name_last": "Pavlidis",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "spavlidis@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2131
+  },
+  {
+    "name_first": "Martin",
+    "name_last": "Rosen",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "crosen8@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2131
+  },
+  {
+    "name_first": "Gozde",
+    "name_last": "Tutuncuoglu",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "gozde.tutuncuoglu@chbe.gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2131
+  },
+  {
+    "name_first": "Eric",
+    "name_last": "Vogel",
+    "role": "IEN Deputy Director, Professor",
+    "contact_phone1": "404.385.7235",
+    "contact_email": "eric.vogel@mse.gatech.edu",
+    "about": "Eric M. Vogel is currently Professor of Materials Science and Engineering at the Georgia Institute of Technology (GIT). Prior to joining GIT in August 2011, he was Associate Professor of Materials Science and Engineering and Electrical Engineering at the University of Texas at Dallas (UTD) where he was also Associate Director of the Texas Analog Center of Excellence and led UTDÕs portion of the Southwest Academy for Nanoelectronics. Prior to joining UTD in August of 2006, he was leader of the CMOS and Novel Devices Group and founded the Nanofab at the National Institute of Standards and Technology.\n\nHe received his Ph. D. degree in 1998 in Electrical Engineering from North Carolina State University and his B. S. degree in 1994 in Electrical Engineering from Penn State University.\n\nProfessor VogelÕs research interests relate to materials and devices for future micro-/nano-electronics. He has published over 150 journal publications and proceedings, written 6 book chapters and given over 75 invited talks and tutorials.",
+    "floor": 2,
+    "room": 2133
+  },
+  {
+    "name_first": "Bara",
+    "name_last": "Cola",
+    "role": "Assistant Professor",
+    "contact_phone1": "404.385.8652",
+    "contact_email": "cola@gatech.edu",
+    "about": "Baratunde A. Cola is an associate professor in the George W. Woodruff School of Mechanical Engineering and the School of Materials Science and Engineering at the Georgia Institute of Technology. He received his degrees from Vanderbilt University and Purdue University, all in mechanical engineering, and was a starting fullback on the Vanderbilt football team as an undergrad. Dr. Cola has received a number of prestigious early career research awards including the Presidential Early Career Award for Scientist and Engineers (PECASE) in 2012 from President Obama for his work in nanotechnology, energy, and outreach to high school art and science teachers and students; the AAAS Early Career Award for Public Engagement with Science in 2013; and recently the 2015 Bergles-Rohsenow Young Investigator Award in Heat Transfer from the American Society of Mechanical Engineers. In addition to research and teaching, Dr. Cola is the founder, CEO and Chairman of Carbice Nanotechnologies, Inc., which sells a leading thermal management solution for the global electronics industry.",
+    "floor": 2,
+    "room": 2134
+  },
+  {
+    "name_first": "Mike",
+    "name_last": "Filler",
+    "role": "Associate Professor",
+    "contact_phone1": "404.894.0430",
+    "contact_email": "michael.filler@chbe.gatech.edu",
+    "about": "Dr. Filler is currently an Associate Professor and the Gunn Faculty Fellow in the School of Chemical & Biomolecular Engineering at the Georgia Institute of Technology. He earned his undergraduate and graduate degrees from Cornell University and Stanford University, respectively, prior to completing postdoctoral studies at the California Institute of Technology. Dr. Filler has been recognized for his research and teaching with the National Science Foundation CAREER Award, Georgia Tech Sigma Xi Young Faculty Award, CETL/BP Junior Faculty Teaching Excellence Award, and AVS Dorothy M. and Earl S. Hoffman Award. Dr. Filler also heads Nanovation, a forum to address the big questions, big challenges, and big opportunites of nanotechnology.",
+    "floor": 2,
+    "room": 2135
+  },
+  {
+    "name_first": "Erick",
+    "name_last": "Anderson",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "eanderson@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Dmitriy",
+    "name_last": "Boyuk",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "dboyuk6@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Eleanor",
+    "name_last": "Brightbill",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "elb@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Phillip",
+    "name_last": "Campbell",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "pcampbell32@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Weize",
+    "name_last": "Hu",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "whu46@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Ali Hussain",
+    "name_last": "Kazim",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "a.h.kazim@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Amar",
+    "name_last": "Mohabir",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "amohabir3@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Chris",
+    "name_last": "Perini",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "chris.perini@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Matthew",
+    "name_last": "Smith",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "mksmith@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Eric",
+    "name_last": "Tervo",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "eric.tervo@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Meng-Yen",
+    "name_last": "Tsai",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "mytsai@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Chengquan",
+    "name_last": "Wang",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "chengquan.wang@gatech.edu",
+    "about": "",
+    "floor": 2,
+    "room": 2140
+  },
+  {
+    "name_first": "Gabe",
+    "name_last": "Kwong",
+    "role": "Assistant Professor",
+    "contact_phone1": "404.385.3746",
+    "contact_email": "gkwong@gatech.edu",
+    "about": "Dr. Kwong is an Assistant Professor in the Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech School of Engineering and Emory School of Medicine. His research program brings together advances from engineering and immunology in order to impact human health. His laboratory develops micro- and nanotechnologies that interact with the immune system Ð enabling new applications in biomedical diagnostics and cell-based therapies that address frontier challenges in cancer, transplantation medicine and infectious diseases. Dr. Kwong and his multidisciplinary team have published in major scientific journals such as Nature Biotechnology and Nature Medicine, leading to broad coverage including profiles in The Economist, NPR, BBC, and WGBH-2, BostonÕs PBS station.\n\nDr. Kwong earned his B.S. in Bioengineering with Highest Honors from the University of California, Berkeley and his Ph.D. in Bioengineering from the California Institute of Technology with Professor James R. Heath. He conducted postdoctoral studies in the Laboratory for Multiscale Regenerative Technologies (LMRT) at the Massachusetts Institute of Technology with Professor Sangeeta N. Bhatia. In recognition of his work, Dr. Kwong was named a \"Future Leader in Cancer Research and Translational Medicine\" by the Massachusetts General Hospital, and is the recipient of the NIH Ruth L. Kirschstein National Research Service Award, Burroughs Wellcome Fund Career Award at the Scientific Interface, and the NIH Director's New Innovator Award. Dr. Kwong holds ten issued or pending patents in cancer nanotechnology, and has launched one biotechnology startup company.",
+    "floor": 3,
+    "room": 3132
+  },
+  {
+    "name_first": "Dean A.",
+    "name_last": "Sutter",
+    "role": "Assoc. Director & Industry Outreach",
+    "contact_phone1": "404.894.3847",
+    "contact_email": "dean.sutter@ien.gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3133
+  },
+  {
+    "name_first": "Tony",
+    "name_last": "Kim",
+    "role": "Assistant Professor",
+    "contact_phone1": "404.385.1478",
+    "contact_email": "yongtae.kim@me.gatech.edu",
+    "about": "Dr. Kim joined the Woodruff School of Mechanical Engineering as an Assistant Professor in July 2013. Prior to his current appointment, he was a Postdoctoral Associate in the David H. Koch Institute for Integrative Cancer Research at MIT, where he developed biomimetic microsystems for probing nanoparticle behaviors in the inflamed endothelium and for synthesizing therapeutic and diagnostic nanomaterials. His doctorate research at CMU focused on closed-loop microfluidic control systems for lab-on-a-chip applications to biochemistry and developmental biology. Prior to his PhD, he was a researcher in areas of dynamics, controls, and robotics at R&D Divisions of Hyundai-Kia Motors and Samsung Electronics for 6 years.",
+    "floor": 3,
+    "room": 3134
+  },
+  {
+    "name_first": "Wilbur",
+    "name_last": "Lam",
+    "role": "Assistant Professor",
+    "contact_phone1": "404.385.5081",
+    "contact_email": "wilbur.lam@bme.gatech.edu",
+    "about": "Dr. Wilbur Lam received his B.A. from Rice University in 1995, his M.D. from the Baylor College of Medicine in 1999 and his Ph.D. from the University of California,San Francisco/University of California, Berkeley Joint Graduate Group in Bioengineering in 2008. He completed his Residency in Pediatrics from UCSF in 2002 and was a Postdoctoral Fellow at UC Berkeley from 2008-2010.\n\nDr. LamÕs research involves integrating microtechnology ,development, experimental hematology and oncology and clinical medicine. His interdisciplinary laboratory, comprising clinicians, engineers, and biologists, is dedicated to applying and developing micro/nanotechnologies to study, diagnose, and treat blood disorders, cancer, and childhood diseases. This unique \"basement to bench to bedside\" approach to biomedical research is enabled by our labÕs dual locations at the Emory University School of Medicine and the Georgia Institute of Technology and our affiliations with the ChildrenÕs Healthcare of Atlanta hospitals",
+    "floor": 3,
+    "room": 3135
+  },
+  {
+    "name_first": "Jungho",
+    "name_last": "Ahn",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jahn90@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Song Ih",
+    "name_last": "Ahn",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "songihahn@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Marcus",
+    "name_last": "Carden",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "marcus.carden@choa.org",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Danny",
+    "name_last": "Chang",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "danny.chang@emory.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Jordan",
+    "name_last": "Ciciliano",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jordanciciliano@gmail.com",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Shreyas",
+    "name_last": "Dahotre",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "shreyas.dahotre@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Olivia",
+    "name_last": "Delmas",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "olivia.delmas@bme.gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Hassan",
+    "name_last": "Fakhoury",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "hfakhoury6@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Meridith",
+    "name_last": "Fay",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "meredith527@gmail.com",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Marielena",
+    "name_last": "Gamboa-Castro",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "lena@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Caroline",
+    "name_last": "Hansen",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "caroline.hansen@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Elaissa",
+    "name_last": "Hardy",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "elaissa.hardy@emory.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Candice",
+    "name_last": "Hovell",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "cmhovell@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Justin",
+    "name_last": "Kahla",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jkahla@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Taeyoung",
+    "name_last": "Kim",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "taeyoungkim@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Jessica",
+    "name_last": "Lin",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jessica.lin@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Quoc",
+    "name_last": "Mac",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "qmac@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Robert",
+    "name_last": "Mannino",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "rmannino3@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "David",
+    "name_last": "Meyers",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "david.myers@emory.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Ian",
+    "name_last": "Miller",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "imiller7@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Sarah",
+    "name_last": "Mitchell",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "sarah.mitchell2@choa.org",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Yongzhi",
+    "name_last": "Qiu",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "yongzhi.qiu@gmail.com",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Margo",
+    "name_last": "Rollins",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "margo.rollins2@choa.org",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Yumiko",
+    "name_last": "Sakurai",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "ysakura@emory.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Yoshitaka",
+    "name_last": "Sei",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "ysei3@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Michael",
+    "name_last": "Toth",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "mtoth6@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Reginald",
+    "name_last": "Tran",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "reginald.tran@gmail.com",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Erica",
+    "name_last": "Tyburski",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "etyburski3@gmail.com",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Jiwon",
+    "name_last": "Yom",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jiwym@gatech.edu",
+    "about": "",
+    "floor": 3,
+    "room": 3140
+  },
+  {
+    "name_first": "Farrokh",
+    "name_last": "Ayazi",
+    "role": "Ken Byers Professor",
+    "contact_phone1": "404.894.9496",
+    "contact_email": "farrokh.ayazi@ece.gatech.edu",
+    "about": "Professor Ayazi received the B.S. degree in electrical engineering from the University of Tehran, Iran, in 1994, and the M.S. and the Ph.D. degrees in electrical engineering from the University of Michigan, Ann Arbor, in 1997 and 2000, respectively.\n\nHe joined the ECE faculty at Georgia Institute of Technology in December 1999. His main research focus has been in the area of Integrated MEMS and Microsystems Technology. He has served on the technical program committees of the IEEE International Solid State Circuits Conference (ISSCC), IEEE Micro-Electro-Mechanical Systems (MEMS) Conference, International Electron Devices Meeting (IEDM), and Transducers and IEEE Sensors Conference. He is an editor for IEEE/ASME Journal of Microelectromechanical Systems (JMEMS).",
+    "floor": 4,
+    "room": 4131
+  },
+  {
+    "name_first": "Purnima",
+    "name_last": "Sharma",
+    "role": "Exec Director Admin. Assistant",
+    "contact_phone1": "404.894.5251",
+    "contact_email": "purnima.sharma@ece.gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4132
+  },
+  {
+    "name_first": "Oliver",
+    "name_last": "Brand",
+    "role": "Executive Director, IEN & Director, Southeastern Nanotechnology Infrastructure Corridor (SENIC) and National Office for the Nanotechnology Coordinated Infrastructure (NNCI",
+    "contact_phone1": "",
+    "contact_email": "oliver.brand@ece.gatech.edu",
+    "about": "Oliver Brand received his diploma degree in Physics from Technical University Karlsruhe, Germany in 1990, and his Ph.D. degree (Doctor of Natural Sciences) from ETH Zurich, Switzerland in 1994.\n\nFrom 1995 to 1997, he worked as a postdoctoral fellow at Georgia Tech. From 1997 to 2002, he was a lecturer at ETH Zurich in Zurich, Switzerland and deputy director of the Physical Electronics Laboratory (PEL). In January 2003, Dr. Brand joined the Electrical & Computer Engineering faculty at Georgia Institute of Technology.\n\nDr. Brand has co-authored more than 120 publications in scientific journals and conference proceedings. His research interests are in the areas of CMOS-based microsystems, microsensors, MEMS fabrication technologies, and microsystem packaging.",
+    "floor": 4,
+    "room": 4133
+  },
+  {
+    "name_first": "Devin",
+    "name_last": "Brown",
+    "role": "E-Beam Support Lead",
+    "contact_phone1": "404.385.4220",
+    "contact_email": "devin.brown@ece.gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4134
+  },
+  {
+    "name_first": "Muhannad",
+    "name_last": "Bakir",
+    "role": "Professor",
+    "contact_phone1": "404.385.6276",
+    "contact_email": "muhannad.bakir@ece.gatech.edu",
+    "about": "Muhannad S. Bakir received the B.E.E. degree (summa cum laude) from Auburn University, Auburn, AL, in 1999 and the M.S. and Ph.D. degrees in electrical and computer engineering from the Georgia Institute of Technology (Georgia Tech) in 2000 and 2003, respectively.\n\nHe was a senior research engineer at the Nanoelectronics Research Center at Georgia Tech from 2003-2010. He is the editor of a book entitled Integrated Interconnect Technologies for 3D Nanoelectronic Systems and is the author/coauthor of more than 60 journal publications and conference proceedings, 5 book chapters, 12 US patents, multiple invited presentations, and the presenter of 2 conference tutorials, including an invited tutorial on 3D technology at the 2007 International Solid-State Circuits Conference (ISSCC)",
+    "floor": 4,
+    "room": 4135
+  },
+  {
+    "name_first": "Reza",
+    "name_last": "Abbaspour",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "abbreza@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Hommood",
+    "name_last": "Al-Rowais",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "halrowais3@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Anosh",
+    "name_last": "Daruwalla",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "adaruwalla3@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Patrick",
+    "name_last": "Getz",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "patrick.getz@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Joe",
+    "name_last": "Gonzales",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jgonzales34@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Benoit",
+    "name_last": "Hamelin",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "bhamelin3@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Md Obaidul",
+    "name_last": "Hossen",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "mhossen3@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Hoon",
+    "name_last": "Jeong",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "hoonjeong@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Paul",
+    "name_last": "Jo",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "paul.jo@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Choongsoon",
+    "name_last": "Kim",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "ckim96@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Mingu",
+    "name_last": "Kim",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "mgk@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Hanju",
+    "name_last": "Oh",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "hanju.oh@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Thomas",
+    "name_last": "Sarvey",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "tsarvey@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "William",
+    "name_last": "Wahby",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "wwahby@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Congshan",
+    "name_last": "Wan",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "cwan3@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Haoran",
+    "name_last": "Wen",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "haoran.wen@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Jeremy",
+    "name_last": "Yang",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "jyang358@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Yang",
+    "name_last": "Zhang",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "yfzhang@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Xuchen",
+    "name_last": "Zhang",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "xzhang96@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Muneeb",
+    "name_last": "Zia",
+    "role": "",
+    "contact_phone1": "",
+    "contact_email": "muneeb.zia@gatech.edu",
+    "about": "",
+    "floor": 4,
+    "room": 4140
+  },
+  {
+    "name_first": "Kiyana",
+    "name_last": "Jacobs",
+    "role": "Financial Admin III",
+    "contact_phone1": "404.385.5603",
+    "contact_email": "kiyana.jacobs@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": "1151A"
+  },
+  {
+    "name_first": "Christa",
+    "name_last": "Ernst",
+    "role": "Marketing Manager",
+    "contact_phone1": "404.894.1665",
+    "contact_email": "christa.ernst@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": "1151B"
+  },
+  {
+    "name_first": "Judith",
+    "name_last": "Vanderboom",
+    "role": "Professional Advisor",
+    "contact_phone1": "404.894.8690",
+    "contact_email": "judith.vanderboom@ien.gatech.edu",
+    "about": "",
+    "floor": 1,
+    "room": "1153A"
+  },
+  {
+    "name_first": "Eric",
+    "name_last": "Woods",
+    "role": "Characterization Support",
+    "contact_phone1": "404-385-2877",
+    "contact_email": "eric.woods@ien.gatech.edu",
+    "about": "",
+    "floor": "G",
+    "room": "G126"
+  },
+  {
+    "name_first": "David",
+    "name_last": "Tavakoli",
+    "role": "XRD Lab Manager",
+    "contact_phone1": "404-385-2877",
+    "contact_email": "david.tavakoli@mse.gatech.edu",
+    "about": "",
+    "floor": "G",
+    "room": "G126"
+  },
+  {
+    "name_first": "Todd",
+    "name_last": "Walters",
+    "role": "Characterization Support",
+    "contact_phone1": "404-895-9723",
+    "contact_email": "todd@gatech.edu",
+    "about": "",
+    "floor": "G",
+    "room": "G146"
+  }
+]

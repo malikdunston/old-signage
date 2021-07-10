@@ -1,0 +1,200 @@
+body.player{
+	#appBg{
+		top: 0;
+	}
+        #ss{
+                position: fixed;
+                top: 4em;
+                left: 1em;
+                height: calc(66.67vh - 9em);
+                z-index: 900;
+                transition: top .67s;
+		.feed {
+			.item {
+				.image{
+					height: 100%;
+					background-size: contain;
+					background-repeat: no-repeat;
+				}
+			}
+		}
+        }
+        .playerMenu{
+                overflow-x: scroll;
+                width: 100vw;
+                height: 4em;
+                position: fixed;
+                top: 120vh;
+                transition: top .33s;
+		@include flex(row);
+		padding-left: 1em;
+		> div{
+			white-space: nowrap;
+			text-align: center;
+			line-height: 2em;
+			background: white;
+			padding: 0em 1em;
+			margin: 1rem 1rem 1rem 0;
+			color: $mgray;
+			border-radius: $borderRadius;
+			display: inline-block;
+		}
+		&::after{
+			content: '';
+			width: 20px;
+			height: 100%;
+			display: block;
+		}
+        }
+        #dir{
+                padding-top: -10em;
+                opacity: 0;
+                width: 100vw;
+                transition: .667s;
+                position: fixed;
+                h1{
+                        margin: 0;
+                        padding-left: .5em;
+                }
+                [id^=search] {
+                        @include flex(row);
+                        padding: 0.5em 1em;
+                        height: 3em;
+                        width: 80%;
+                        transition: height .333s;
+                        > *{
+                                background: $whiteTransparent60;
+                                margin-left: .5rem;
+                                &:first-child{
+                                        margin-left: 0;
+                                }
+                                border-radius: 1.5rem;
+                                overflow: hidden;
+                        }
+                        .searchbar {
+                                flex: 1;
+                                @include flex(row);
+                                position: relative;
+                                .search{
+                                        width: 1.25rem;
+                                        padding: .2rem; 
+                                        padding-left: .5rem;
+                                        transition: 1.5s opacity;
+                                        .cls-1 {
+                                                fill: $dgray;
+                                        }
+                                }
+                                input{
+                                        flex: 1;
+                                        border: 0;
+                                        padding-left: .25rem;
+                                        color: $dgray;
+                                        background: transparent;
+                                }
+                        }
+                        div.cancel{
+                                background: transparent;
+                                font-size: .5rem;
+                                line-height: 1.5rem;
+                        }
+                }
+                #dir {
+                        display: block;;
+                        overflow-x: scroll;
+                        width: 100vw;
+                        border-spacing: 0;
+                        tr {
+                                > *{
+                                        padding: .5rem;
+                                }
+                        }
+                        thead{
+                                text-align: left;
+                                font-weight: 100;
+                                tr{
+                                        > *,
+                                        th{
+                                                padding: .5rem .5rem .5rem .5rem;
+                                                font-weight: 400;
+                                                font-size: .3rem;
+                                                letter-spacing: .1rem;
+                                                line-height: 1.25;
+                                                position: relative;
+                                                &::after{
+                                                        content: "";
+                                                        display: block;
+                                                        position: absolute;
+                                                        bottom: 0;
+                                                        left: 0;
+                                                        height: 1px;
+                                                        width: 0%;
+                                                        background: $gray;
+                                                        transition: 1s width;
+                                                }
+                                                &:hover{
+                                                        &::after{
+                                                                width: 100%;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                        tbody {
+                                tr {
+                                        > *{
+                                                color: $dgrayTransparent60;
+                                                &:hover{
+                                                        background: $white;
+                                                }
+                                        }
+                                        &:nth-of-type(odd){
+                                                background: $whiteTransparent40;
+                                        }
+                                }
+                        }
+                }                
+                &.searchOpen{
+                        #title{
+                                height: 3.66rem;
+                                section{
+                                        bottom: 5rem;
+                                }
+                                [id^=search] {
+                                        height: 3.5rem;
+                                        .searchbar {
+                                                .icon-search{
+                                                        margin-left: .7rem;
+                                                        opacity: 1;
+                                                }
+                                                input{
+                                                        padding-left: .33rem;
+                                                        font-size: .8rem;
+                                                }
+                                        }
+                                        .cancel{
+                                                line-height: 2.5rem!important;
+                                        }
+                                }
+                        }
+                }
+        }
+        &.dir{
+                slider#ss{
+                        top: -100vh;
+                }
+                #dir{
+			padding-top: 7em;
+                        opacity: 1;
+			height: calc(100vh - 7em);
+			overflow-y: scroll;
+                }
+        }
+        &.ss{
+		#dir{
+			pointer-events: none;
+		}
+                .playerMenu{
+                        top: calc(66.67vh - 5em);
+                }
+        }
+}

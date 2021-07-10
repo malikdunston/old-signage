@@ -1,0 +1,86 @@
+$teal: rgba(75, 137, 153, 1);
+$manceGray: rgba(152, 152, 153, 1);
+$manceDarkGray: rgba(107, 107, 107, 1);
+
+$manceBlue: rgba(1, 79, 158, 1);
+$manceRed: rgba(206, 32, 39, 1);
+
+map{
+        padding: 1em;
+	display: block;
+	svg{
+		width: 100%;
+		.floor{
+			fill: $manceGray;
+		}
+		.shapes{
+			fill: $techgold;
+			stroke: $white;
+			stroke-width: 2;
+			.room{
+				fill: $techgold;
+			}
+			.restroom{
+				fill: $manceDarkGray;
+                                text{display: none};
+			}
+			.staircase,
+			.elevator{
+				fill: $teal;
+                                text{display: none};
+			}
+		}
+                .icon{
+                        fill: white;
+                        stroke-width: 0;
+                        width: 20px;
+                        height: 20px;
+                }
+		text{
+			fill: black;
+			stroke-width: 0;
+			text-anchor: middle;
+			font-size: 20%;
+		}
+	}
+}
+
+// map{
+//         padding: 1em;
+// 	display: block;
+// 	svg{
+// 		// width: 100%;
+// 		.floor{
+// 			fill: rgb(194, 194, 194);
+// 		}
+// 		.rooms{
+// 			fill: rgba(0, 0, 0, 0.15);
+// 			stroke: rgb(65, 65, 65);
+// 			stroke-width: .25;
+// 			.selected{
+// 				fill: rgba(179, 163, 105, 0.138);
+// 				stroke: rgb(179, 163, 105);
+// 				stroke-width: 2;
+// 				z-index: 1000;
+// 				animation-name: example;
+// 				animation-duration: 3s;
+// 				animation-iteration-count: infinite;
+// 				text{
+// 					fill: rgb(179, 163, 105);
+// 				}
+// 			}
+// 		}
+// 		text{
+// 			fill: black;
+// 			stroke-width: 0;
+// 			text-anchor: middle;
+// 			font-size: 20%;
+// 		}
+// 	}
+// }
+
+// @keyframes example{
+// 	0% {fill: rgba(179, 163, 105, 0.138);}
+// 	50% {fill: rgba(179, 163, 105, 1);}
+// 	100% {fill: rgba(179, 163, 105, 0.138);}
+// }

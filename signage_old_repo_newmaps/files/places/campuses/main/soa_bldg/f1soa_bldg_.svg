@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 97.5 108.24">
+	<defs>
+		<style>
+			.cls-1,
+			.cls-2 {
+				fill: none;
+				stroke-miterlimit: 10;
+			}
+
+			.cls-1 {
+				stroke: #0013ff;
+				stroke-width: 8px;
+			}
+
+			.cls-2 {
+				stroke: #00dbff;
+				stroke-width: 3px;
+			}
+		</style>
+	</defs>
+	<title>f1soa_bldg_</title>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="SVG">
+			<g id="f1">
+				<path id="floor" class="cls-1"
+					d="M85.42,4H93.5V104.24h-63V95.81H4V66.94h8.55V45.46S58.05,45.23,85.42,4Z" />
+				<g id="rooms">
+					<path id="_101" data-name="101" class="cls-2"
+						d="M39.45,39.93A91.91,91.91,0,0,0,85.42,4H93.5V104.24H67.27V86.11L49.73,76.18H39.34Z" />
+					<polygon id="_102" data-name="102" class="cls-2"
+						points="30.5 95.81 4 95.81 4 66.94 12.55 66.94 12.55 61.4 22.02 61.4 22.02 69.25 31.02 69.25 30.5 95.81" />
+					<path id="RR-A" class="cls-2"
+						d="M12.55,45.46S24.24,45.4,39.34,40V61.4H12.55Z" />
+					<rect id="staircase" class="cls-2" x="30.56" y="87.49" width="21.48"
+						height="16.86" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

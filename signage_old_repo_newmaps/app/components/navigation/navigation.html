@@ -1,0 +1,42 @@
+<div class="top">
+
+	<div class="pattern"></div>
+
+	<div class="background">
+		<div class="chevron" ui-sref="home">
+			<div>
+			</div>
+			<img src="./files/gold-angle.svg" alt="" class="angle">
+		</div>
+	</div>
+
+	<div class="wrap">
+		<img id="logo"
+			ui-sref="home"
+			src="{{'./files/' + institution.logo}}" 
+			alt='{{ institution.name_long + "s logo" }}'>
+		<button class="hamburger" ng-click="toggleNav()">
+                        <div class="close">
+                                <div>X</div>
+                                <div>CLOSE</div>
+                        </div>
+                        <div class="open">
+                                <div>☰</div>
+                                <div>MENU</div>
+                        </div>
+		</button>
+	</div>
+</div>
+
+<section id="title">
+	<h2>Curie Theme</h2>
+	<h3>DRUPAL 8.9.X -- THEME BUILD: 2.0.0</h3>
+</section>
+
+<div class="bottom" ng-class="{open: open}">
+        
+        <weather class="{{clock.timeOfDay}}" time="{{clock.timeOfDay}}"></weather> 
+        
+        {{clock.time | date:'HH:mm:ss'}}
+
+</div>

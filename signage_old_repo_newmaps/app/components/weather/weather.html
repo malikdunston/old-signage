@@ -1,0 +1,35 @@
+<div>
+
+        <div ng-if="time == 'day'">
+                <div ng-if="weather.current.shortForecast == 'Sunny' || weather.current.shortForecast == 'Clear' || weather.current.shortForecast == 'Partly Clear' || weather.current.shortForecast == 'Mostly Clear'">
+                        <img src="./files/weather/clear-day.png" alt="{{weather.current.shortForecast}}">
+                </div>
+                <div ng-if="weather.current.shortForecast == 'Partly Sunny' || weather.current.shortForecast == 'Mostly Sunny'">
+                        <img src="./files/weather/few-clouds-day.png" alt="{{weather.current.shortForecast}}">
+                </div>
+                <div ng-if="weather.current.shortForecast == 'Chance Rain Showers' || weather.current.shortForecast == 'Rain Showers'">
+                        <img src="./files/weather/shower-rain-day.png" alt="{{weather.current.shortForecast}}">
+                </div>
+        </div>
+
+        <div ng-if="time == 'night'">
+                <div ng-if="weather.current.shortForecast == 'Clear' || weather.current.shortForecast == 'Partly Clear' || weather.current.shortForecast == 'Mostly Clear'">
+                        <img src="./files/weather/clear-night.png" alt="{{weather.current.shortForecast}}">
+                </div>
+                <div ng-if="weather.current.shortForecast == 'Chance Rain Showers' || weather.current.shortForecast == 'Rain Showers'">
+                        <img src="./files/weather/shower-rain-night.png" alt="{{weather.current.shortForecast}}">
+                </div>
+        </div>
+
+        <div ng-if="weather.current.shortForecast == 'Partly Cloudy'">
+                <img src="./files/weather/scattered-clouds.png" alt="{{weather.current.shortForecast}}">
+        </div>
+        <div ng-if="weather.current.shortForecast == 'Mostly Cloudy'">
+                <img src="./files/weather/broken-clouds.png" alt="{{weather.current.shortForecast}}">
+        </div>
+
+</div>
+
+<div class="temp">
+        {{weather.temp + "&deg; F"}}
+</div>

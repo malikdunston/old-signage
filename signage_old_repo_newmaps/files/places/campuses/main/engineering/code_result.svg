@@ -1,0 +1,35 @@
+<svg viewBox="0 0 156 289">
+        <g class="floor">
+	<path class="st0" d="M78.5,233.5c0-47.5,27.1-86,60.5-86c6.1,0,12,1.3,17.5,3.7V-0.5H0.5v289h92C83.8,273.6,78.5,254.4,78.5,233.5z
+		"></path>
+</g>
+        <g class="rooms">		
+		<!-- ngRepeat: room in rooms --><g id="room_105A" class="room_105A room" ng-class="{selected: room.number == location.room}" ng-repeat="room in rooms">
+			<g class="room_105A " ng-bind-html="room.data">
+		<rect x="0.5" y="-0.5" class="st1" width="68" height="106"></rect>
+		<text transform="matrix(1 0 0 1 34.5 52.5)" class="st2 st3">105A</text>
+	</g>
+			<!-- ngIf: room.type == 'staircase' -->
+		</g><!-- end ngRepeat: room in rooms --><g id="room_G502" class="room_G502 room" ng-class="{selected: room.number == location.room}" ng-repeat="room in rooms">
+			<g class="room_G502 " ng-bind-html="room.data">
+		<rect x="68.5" y="-0.5" class="st1" width="68" height="53"></rect>
+		<text transform="matrix(1 0 0 1 102.5 26)" class="st2 st3">G502</text>
+	</g>
+			<!-- ngIf: room.type == 'staircase' -->
+		</g><!-- end ngRepeat: room in rooms --><g id="room_RR208" class="room_RR208 restroom" ng-class="{selected: room.number == location.room}" ng-repeat="room in rooms">
+			<g class="room_RR208 " ng-bind-html="room.data">
+		
+			<ellipse transform="matrix(0.2687 -0.9632 0.9632 0.2687 -148.2933 181.6684)" class="st1" cx="45.5" cy="188.5" rx="61" ry="25"></ellipse>
+		<text transform="matrix(1 0 0 1 45.5 188.5)" class="st2 st3">RR208</text>
+	</g>
+			<!-- ngIf: room.type == 'staircase' -->
+		</g><!-- end ngRepeat: room in rooms --><g id="room_698" class="room_698 staircase" ng-class="{selected: room.number == location.room}" ng-repeat="room in rooms">
+			<g class="room_698 " ng-bind-html="room.data">
+		<polygon class="st1" points="112.5,52.5 68.5,52.5 68.5,85.5 95.6,85.5 112.5,70.4 "></polygon>
+		<text transform="matrix(1 0 0 1 87.8887 68.5557)" class="st2 st3">698</text>
+	</g>
+			<!-- ngIf: room.type == 'staircase' --><circle ng-if="room.type == 'staircase'" cx="87.8887" cy="68.5557" r="5" class="ng-scope">
+			</circle><!-- end ngIf: room.type == 'staircase' -->
+		</g><!-- end ngRepeat: room in rooms -->
+	</g>
+</svg>

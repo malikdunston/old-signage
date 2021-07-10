@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 156 289" style="enable-background:new 0 0 156 289;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#FF0000;stroke-miterlimit:10;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:12px;}
+</style>
+<g id="floor1">
+	<path class="st0" d="M78.5,233.5c0-47.5,27.1-86,60.5-86c6.1,0,12,1.3,17.5,3.7V-0.5H0.5v289h92C83.8,273.6,78.5,254.4,78.5,233.5z
+		"/>
+</g>
+<g id="room">
+	<g>
+		<rect x="0.5" y="-0.5" class="st1" width="68" height="106"/>
+		<text transform="matrix(1 0 0 1 34.5 52.5)" class="st2 st3">105A</text>
+	</g>
+	<g>
+		<rect x="68.5" y="-0.5" class="st1" width="68" height="53"/>
+		<text transform="matrix(1 0 0 1 102.5 26)" class="st2 st3">G502</text>
+	</g>
+</g>
+<g id="restroom">
+	<g>
+		
+			<ellipse transform="matrix(0.2687 -0.9632 0.9632 0.2687 -148.2933 181.6684)" class="st1" cx="45.5" cy="188.5" rx="61" ry="25"/>
+		<text transform="matrix(1 0 0 1 45.5 188.5)" class="st2 st3">RR208</text>
+	</g>
+</g>
+<g id="staircase">
+	<g>
+		<polygon class="st1" points="112.5,52.5 68.5,52.5 68.5,85.5 95.6,85.5 112.5,70.4 "/>
+		<text transform="matrix(1 0 0 1 87.8887 68.5557)" class="st2 st3">698</text>
+	</g>
+</g>
+</svg>

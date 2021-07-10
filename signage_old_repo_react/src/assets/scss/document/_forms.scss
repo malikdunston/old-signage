@@ -1,0 +1,24 @@
+input {
+	border: 0;
+		&::placeholder {
+			opacity: .4;
+		}
+}
+*:focus{
+	outline: none;
+}
+form {
+	@include flex(column);
+
+	input {
+		height: 3rem;
+		display: block;
+		border-bottom: 1px solid $offwhite;
+		&:last-child {
+			border: 0;
+		}
+	}
+	button {
+		background: $fadewhite;
+	}
+}

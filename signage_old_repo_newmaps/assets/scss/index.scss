@@ -1,0 +1,28 @@
+@import 
+	"app/root",
+	"brand/typography", "brand/colors",
+	"components/map", "components/navigation";
+
+body{
+	background: $fadewhite;
+	color: $fadeblack;
+        > *{
+                position: relative;
+        }
+        ui-view{
+                display: block;
+        }
+	a{
+		color: black;
+		text-decoration: none;
+		text-underline-offset: .15em;
+		&:hover{
+			text-decoration: underline dotted;
+		}
+	}
+	button{
+		border: 0;
+		border-radius: 0;
+		background: $techgold;
+	}
+}

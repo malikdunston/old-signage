@@ -1,0 +1,11 @@
+<!-- <map class="building" location="{campus: 'main', building: 'nano', floor: 2}"></map> -->
+<map class="building" location="{campus: 'main', building: 'nano', floor: 1}"></map>
+
+
+
+<!-- <h1 ui-sref="content">Buildings Directory</h1> -->
+<!-- <section accordion data="home.data.campuses"></section> -->
+<div ng-repeat="c in home.data.campuses">
+        {{c.name_long}}
+        <div ng-repeat="b in c.buildings" ui-sref="places({campus: c.name_short, building: b.name_short})">{{b.name_long}}</div>
+</div>

@@ -1,0 +1,102 @@
+navigation{
+	display: block;
+	height: 175px;
+        z-index: 900;
+	.top{
+		height: 95px;
+		.pattern{
+			position: absolute;
+			height: 10px;
+			max-width: 1140px;
+			width: 100vw;
+			background-image: url("../../../files/pattern.svg");
+			background-size: 1140px 20px;
+		}
+		.background{
+			height: 100%;
+			display: flex;
+			flex-direction: row;
+			&::before{
+				content: "";
+				display: block;
+				position: absolute;
+				top: 10px;
+				left: 0;
+				width: 100vw;
+				height: 85px;
+				opacity: .85;
+				background-color: var(--tech-gold-lighter);
+			}
+			.chevron{
+				width: 50vw;
+				display: flex;
+				flex-direction: row;
+				div{
+					background: $techgold;
+					// width: 50px;
+					flex-grow: 1;
+					img{
+						// background: red;
+					};
+				}
+				.angle{
+					height: 100%;
+					width: auto;
+					// background: url("../../../files/gold-angle.svg");
+				}
+			}
+			.hamburger{
+				margin-top: 10px;
+				margin-left: auto;
+			}
+		}
+		.wrap{
+			position: relative;
+			top: -95px;
+			padding-top: 10px;
+			height: 100%;
+			width: 100%;
+			max-width: 1140px;
+			display: flex;
+			flex-direction: row;
+			img#logo{
+				width: 36%;
+				height: 100%;
+				padding-left: 15px;
+				object-fit: contain;
+			}
+			button.hamburger{
+				background: transparent;
+				margin-left: auto;
+				width: 64px;
+				padding: 8px
+			}
+		}
+	}
+	#title{  
+		padding: 9px 15px 0;
+		font-family: var(--abel);
+		background: $white;
+		height: 80px;
+		> *{
+			font-weight: 400;
+			margin-bottom: 4px;
+		}
+		h3{
+			color: $techgold;
+			font-size: 18.4px;
+			letter-spacing: .05em;
+		}
+	}
+	.bottom{
+		height: 4px;
+		transition: height .667s;
+		overflow: hidden;
+                background: $white;
+	}
+}
+body.navOpen navigation{
+        .bottom{
+                height: calc(100vh - 175px);
+        }
+}

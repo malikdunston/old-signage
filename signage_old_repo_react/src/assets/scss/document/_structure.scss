@@ -1,0 +1,38 @@
+:root{font-size: 30px;}
+@include breakpoint(md){ // > 1000
+	:root{font-size: 48px;}
+}
+html,
+body{
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     overflow-x:hidden; 
+}
+html,
+body,
+*{
+     box-sizing: border-box!important;
+}
+// typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+	margin: 0;
+}
+body{	
+	section{
+		padding: 1rem .66rem 1.5rem;
+	@include breakpoint(sm){ // > 600
+	}}
+
+@include breakpoint(lg){ // > 1360
+	.container{
+		max-width: 1320px;
+		margin: 0 auto;
+	}
+}}

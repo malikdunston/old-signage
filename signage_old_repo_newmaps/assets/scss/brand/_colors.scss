@@ -1,0 +1,26 @@
+$techgold: rgb(179, 163, 105);
+
+$buzzgold: rgb(234, 170, 0);
+	$buzzgold60: rgba(234, 170, 0, .6);
+
+$blue: rgb(0, 48, 87);
+	$blue80: rgba(0, 48, 87, .8);
+
+$linkblue: rgb(0, 79, 159);
+$linkhoverblue: rgb(24, 121, 219);
+
+$white: rgb(255, 255, 255);
+	$fadewhite: rgb(222, 222, 222);
+$darkgray: rgb(84, 84, 84);
+$black: rgb(0, 0, 0);
+	$fadeblack: rgb(37, 37, 37);
+
+// from zara ddst theme
+* {
+	--tech-gold-lighter: rgb(191, 179, 124);
+	--tech-gold-medium: rgb(172, 154, 88);
+	--tech-gold-darker: rgb(133, 116, 55);
+	--tech-blue-lighter: rgb(51, 81, 97);
+	--tech-gray: rgb(128, 128, 128);
+}
+
