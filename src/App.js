@@ -35,6 +35,8 @@ class App extends Component {
 		return data
 	}
 	async componentDidMount() {
+	// don't want to have to call inst every time...
+	// known with url.....
 		const data = await this.getData({ children: 1 });
 		this.setState({ institution: data[0], loading: false });
 	}
@@ -52,11 +54,11 @@ class App extends Component {
 			<Router>
 				<Route path="/" render={(thisRoute) => (frame(thisRoute))} />
 				<Route path="/places/:campus?/:building?/:floor?/:room?"
-					render={(places) => (
+					render={(route) => (
 						<div id="places">
 							<Map
 								institution={this.state["institution"]}
-								params={places.match.params}
+								params={route.match.params}
 								getData={this.getData} />
 						</div>
 					)} />

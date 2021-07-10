@@ -34,11 +34,12 @@ var projFiles = [
 	"./**/**/**/*.svg"
 ];
 
-function clearCache() {
+function clearCache(cb) {
         gulp.watch(projFiles).on("change", gulp.parallel(
                 cache.clearAll(),
 		console.clear()
 	));
+	cb();
 };
 
 gulp.task('default', gulp.parallel(clearCache, watch_scss));
