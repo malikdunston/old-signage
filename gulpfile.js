@@ -5,7 +5,7 @@ var sass = require('gulp-sass');
 var minifyCSS = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var changed = require('gulp-changed');
-var cache = require("gulp-cache");
+// var cache = require("gulp-cache");
 
 var SCSS_WATCH = './src/assets/scss/**/*.scss';
 var SCSS_SRC = './src/assets/scss/index.scss';
@@ -24,26 +24,26 @@ function watch_scss() {
         gulp.watch(SCSS_WATCH, compile_scss);
 };
 
-var projFiles = [
-	"./**",
-	"./**/**/**/*.html",
-	"./**/**/**/*.js",
-	"./**/**/**/*.php",
-	"./**/**/**/*.css",
-	"./**/**/**/*.scss",
-	"./**/**/**/*.svg"
-];
+// var projFiles = [
+// 	"./**",
+// 	"./**/**/**/*.html",
+// 	"./**/**/**/*.js",
+// 	"./**/**/**/*.php",
+// 	"./**/**/**/*.css",
+// 	"./**/**/**/*.scss",
+// 	"./**/**/**/*.svg"
+// ];
 
-function clearCache(cb) {
-        gulp.watch(projFiles).on("change", gulp.parallel(
-                cache.clearAll(),
-		console.clear()
-	));
-	cb();
-};
+// function clearCache(cb) {
+//         gulp.watch(projFiles).on("change", gulp.parallel(
+//                 cache.clearAll(),
+// 		console.clear()
+// 	));
+// 	cb();
+// };
 
-gulp.task('default', gulp.parallel(clearCache, watch_scss));
+gulp.task('default', gulp.series(watch_scss));
  
 exports.compile_scss = compile_scss;
 exports.watch_scss = watch_scss;
-exports.clearCache = clearCache;
+// exports.clearCache = clearCache;

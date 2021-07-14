@@ -12,7 +12,6 @@ class App extends Component {
 		}
 		this.getData = this.getData.bind(this); 
 	}
-
 	async componentDidMount(){
 		let data = await this.getData();
 		console.log("data is: ", data);
@@ -21,7 +20,6 @@ class App extends Component {
 			floor: [data.campus.building.floor[0]]
 		})
 	}
-
 	async getData(){
 		let url = new URL("https://dev.malikdunston.com/data/digitalsignage/api/");
 		let params = {
@@ -33,7 +31,6 @@ class App extends Component {
 		url.search = new URLSearchParams(params).toString();
 		return  await fetch(url).then(resp => resp.json());
 	}
-
 	render() {
 		return <Router>
 			<Route exact
@@ -57,5 +54,4 @@ class App extends Component {
 		</Router>
 	}
 }
-
 export default App;
