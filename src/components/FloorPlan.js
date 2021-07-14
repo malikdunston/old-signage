@@ -4,18 +4,19 @@ class FloorPlan extends Component {
 constructor(props){
 	super(props);
 	this.stripSVG = this.stripSVG.bind(this);
+	this.state = {
+		viewBox: null
+	}
 }
 stripSVG(){
 	let jsWrapper = document.createElement("div");
 	jsWrapper.innerHTML = this.props.floor.floorplan;
 	let dataSvg = jsWrapper.querySelector("svg");
-	let mapSvg = document.querySelector("svg");
-	mapSvg.setAttribute("viewBox", dataSvg.getAttribute("viewBox"));
-	let mapData = {
+	this.setState({
+		viewBox: dataSvg.getAttribute("viewBox"),
 		floor: jsWrapper.querySelector("svg > g[id^=floor]").innerHTML,
 		rooms: jsWrapper.querySelectorAll("svg > g:not([id^=floor])")
-	}
-	return mapData
+	})
 }
 
 componentDidMount(){
@@ -62,9 +63,10 @@ componentDidMount(){
 	// }
 	// this.setState(prevState => floorData)
 	// console.log(newSVG);
+	this.stripSVG()
 }
 render(){
-	return <svg>
+	return <svg viewBox={this.state.viewBox}>
 		<g className="floor"></g>
 	</svg>
 	

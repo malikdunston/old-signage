@@ -7,7 +7,8 @@ class App extends Component {
 	constructor() {
 		super();
 		this.state = {
-			building: null
+			building: null,
+			floor: null
 		}
 		this.getData = this.getData.bind(this); 
 	}
@@ -16,7 +17,8 @@ class App extends Component {
 		let data = await this.getData();
 		console.log("data is: ", data);
 		this.setState({
-			building: data.campus.building
+			building: data.campus.building,
+			floor: [data.campus.building.floor[0]]
 		})
 	}
 
@@ -41,7 +43,7 @@ class App extends Component {
 						return <div>
 							{this.state.building.name_long}
 							{this.state.building.about}
-							{this.state.building.floor.map(f=>{
+							{this.state.floor.map(f=>{
 								return <FloorPlan
 									floor={f}>
 								</FloorPlan>
