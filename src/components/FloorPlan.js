@@ -3,15 +3,11 @@ import {Link} from "react-router-dom";
 class FloorPlan extends Component {
 constructor(props){
 	super(props);
-	this.state = {
-		floor: null,
-		rooms: []
-	}
 	this.stripSVG = this.stripSVG.bind(this);
 }
 stripSVG(){
 	let jsWrapper = document.createElement("div");
-	jsWrapper.innerHTML = this.props.svg;
+	jsWrapper.innerHTML = this.props.floor.floorplan;
 	let dataSvg = jsWrapper.querySelector("svg");
 	let mapSvg = document.querySelector("svg");
 	mapSvg.setAttribute("viewBox", dataSvg.getAttribute("viewBox"));
@@ -24,21 +20,21 @@ stripSVG(){
 
 componentDidMount(){
 
-	function getRooms(thisFloor, roomTypes) {
-	// assumes all rooms with parent floor = x
-	// are returned as data...
-		thisFloor.rooms = [];
-	// but we updated the floorplans to already parse rooms from the sql db...
-		roomTypes.forEach(function (type) {
-			let category = type.getAttribute("id");
-			let catChildren = type.querySelectorAll("g");
-			catChildren.forEach(function (roomNode) {
-				let room = labelRoom(roomNode, category);
-				thisFloor.rooms.push(room);
-			})
-		})
-		return thisFloor.rooms
-	}
+	// function getRooms(thisFloor, roomTypes) {
+	// // assumes all rooms with parent floor = x
+	// // are returned as data...
+	// 	thisFloor.rooms = [];
+	// // but we updated the floorplans to already parse rooms from the sql db...
+	// 	roomTypes.forEach(function (type) {
+	// 		let category = type.getAttribute("id");
+	// 		let catChildren = type.querySelectorAll("g");
+	// 		catChildren.forEach(function (roomNode) {
+	// 			let room = labelRoom(roomNode, category);
+	// 			thisFloor.rooms.push(room);
+	// 		})
+	// 	})
+	// 	return thisFloor.rooms
+	// }
 
 
 // compile
@@ -59,13 +55,13 @@ componentDidMount(){
 	// 		$state.go("places", newparams);
 	// 	}
 	// });
-	let newSVG = this.stripSVG();
-	let floorData =  {
-		floor: newSVG.floor,
-		rooms: getRooms()
-	}
-	this.setState(prevState => floorData)
-	console.log(newSVG);
+	// let newSVG = this.stripSVG();
+	// let floorData =  {
+	// 	floor: newSVG.floor,
+	// 	rooms: getRooms()
+	// }
+	// this.setState(prevState => floorData)
+	// console.log(newSVG);
 }
 render(){
 	return <svg>
